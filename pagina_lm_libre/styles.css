@@ -1,0 +1,66 @@
+.body {
+    background-color:#645BC9 ;
+}
+.titulo {
+    font-size: 37px;
+    color: #000000;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #AECC49;
+    position: sticky;
+    margin-bottom: 2%;
+}
+
+#definition {
+    font-family: Arial, sans-serif;
+    font-size: 23px;
+    color: #000000;
+    background-color: #50b453;
+    float: left;
+    border: #000000 solid 2px  ;
+    clear: none;
+    width: 20%;
+    padding: 10px;
+    
+}
+
+.contenedor-imagen {
+    overflow: hidden;
+    width: 30%;
+    padding: 10px;
+    clear: none;
+}
+
+
+
+.imagen {  
+    display: inline;
+    position: relative;
+
+    
+    width: 53%;
+
+}
+
+.subtitulo {
+    font-size: 28px;
+    color: #000000;
+    text-align: center;
+    background-color: #F2971D;
+}
+
+.lista-habilidades {
+    font-size: 20px;
+    color: #ffffff;
+
+}
+
+.contenedor-habilidades {
+    margin-bottom: 20px;
+    border: #000000 solid 2px;
+    padding: 10px;
+    width:20%;
+    background-color: #5C535D;
+    float:right
+    
+}
