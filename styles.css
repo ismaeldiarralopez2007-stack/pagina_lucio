@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'KanitCustom';
+    src: url('fonts/Kanit-Regular.ttf') format('truetype');
+}
+body {
+    background-color:#645BC9 ;
+    font-family: 'KanitCustom', sans-serif;
+    font-size: 24px;
+    margin : 0;
+}
+.titulo {
+ 
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #AECC49;
+    position: sticky;
+    margin-bottom: 2%;
+}
+
+#definition {
+    font-size: 16px;
+    color: #000000;
+    background-color: #50b453;
+    float: left;
+    border: #000000 solid 1px;
+    clear: none;
+    width: 20%;
+    padding: 20px;
+    box-shadow: 5px 5px 0px #000000;
+    line-height: 1.5;
+    border-radius: 8px;
+    margin-left: 16px;
+}
+
+.contenedor-imagen {
+    overflow: hidden;
+    width: 25%;
+    padding: 10px;
+    clear: none;
+    
+}
+
+
+
+.imagen {  
+    display: inline;
+    position: relative;
+
+    
+    width: 53%;
+    box-shadow: 5px 5px 0px #000000;
+    border-radius: 8px;
+}
+
+.subtitulo {
+    font-size: 28px;
+    color: #000000;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 0;      
+}
+
+
+
+
+.lista-habilidades {
+    font-size: 16px;
+    color: #ffffff;
+    
+
+}
+
+.contenedor-habilidades {
+    .subtitulo {
+    background-color: #F2971D;
+}
+    margin-bottom: 20px;
+    border: #000000 solid 1px;
+    padding: 20px;
+    width:15%;
+    background-color: #5C535D;
+    float:right;
+    box-shadow: 5px 5px 0px #000000;
+    line-height: 1.5;
+    border-radius: 8px;
+    margin-right: 16px;
+    min-width: auto;
+    
+}
+
+
+.top-name-box {
+    align-items: center;
+    display: block;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #484A4C;
+    margin-top: 0;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
+    text-align: left;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 16px;
+    min-width: auto;
+}
+
+.imagen2 {
+    height: 30px;
+    float: right;
+    margin-top: -5px;
+    
+}
+
+#historia {
+    font-size: 16px;
+    color: #000000;
+    background-color: #50b453;
+    clear: both;
+    border: #000000 solid 1px;
+    width: 40%;
+    padding: 15px;
+    box-shadow: 5px 5px 0px #000000;
+    line-height: 1.5;
+    border-radius: 8px;
+    margin-left: 16px;
+    margin-top: 20px;
+    float : left;
+}
+
+.contenedor-img2 {
+    overflow: hidden;
+    width: 40%;
+    padding: 15px;
+    clear: none;
+    
+}
+.imagen3 {  
+    display: inline;
+    position: relative;
+
+    
+    width: 40%;
+    box-shadow: 5px 5px 0px #000000;
+    border-radius: 8px;
+}
