@@ -123,7 +123,7 @@ body {
     background-color: #50b453;
     clear: both;
     border: #000000 solid 1px;
-    width: 40%;
+    width: 50%;
     padding: 15px;
     box-shadow: 5px 5px 0px #000000;
     line-height: 1.5;
@@ -139,12 +139,14 @@ body {
     padding: 15px;
     clear: none;
     
+    
 }
 .imagen3 {  
     display: inline;
     position: relative;
 
-    
+    margin-top: 50px;
+    margin-left: 30px;
     width: 40%;
     box-shadow: 5px 5px 0px #000000;
     border-radius: 8px;
