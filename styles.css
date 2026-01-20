@@ -149,36 +149,50 @@ body {
     box-shadow: 5px 5px 0px #000000;
     border-radius: 8px;
 }
-@media all and (max-width: 480px) { /* 480px is more standard for phones, but works for 300px too */
-  
-  /* Stack the main containers vertically */
-  body {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-  }
+/* Responsive adjustments for phones */
+@media all and (max-width: 480px) {
+    
+    /* 1. Stack everything vertically */
+    #definition, 
+    .imagen, 
+    .contenedor-habilidades, 
+    #historia, 
+    .imagen3 {
+        float: none !important;      /* Remove the side-by-side positioning */
+        width: 90% !important;       /* Make boxes fill the screen width */
+        margin: 10px auto !important; /* Center the boxes and add spacing between them */
+        display: block;
+    }
 
-  /* Make the Description, Image, and Skills sections full width */
-  .descripcion, .habilidades, img { 
-    width: 100% !important;
-    margin: 10px 0 !important;
-    box-sizing: border-box;
-  }
+    /* 2. Adjust the Header */
+    .top-name-box {
+        font-size: 18px;
+        text-align: center;
+        padding: 10px;
+    }
 
-  /* Adjust the header to fit the logo and title better */
-  header {
-    flex-direction: column;
-    text-align: center;
-  }
+    /* 3. Adjust the Logo in the header */
+    .imagen2 {
+        float: none;
+        display: block;
+        margin: 10px auto 0 auto; /* Move logo under the text and center it */
+    }
 
-  /* Scale down the main hero image so it doesn't overflow */
-  .main-image {
-    height: auto;
-    max-width: 100%;
-  }
+    /* 4. Fix font sizes for readability */
+    .titulo {
+        font-size: 24px;
+        padding: 10px;
+    }
 
-  /* Make the "Habilidades" list easier to tap/read */
-  ul {
-    padding-left: 20px;
-  }
+    .subtitulo {
+        font-size: 22px;
+    }
+
+    /* 5. Clean up image containers */
+    .contenedor-imagen, 
+    .contenedor-img2 {
+        width: 100% !important;
+        padding: 0;
+        text-align: center;
+    }
 }
