@@ -15,7 +15,7 @@
     <span>
         Lúcio Correia dos Santos
     </span>
-    <span> <img src=luciologo-Photoroom.png class="imagen2"></span>
+    <span> <img src=pagina_lm_libre\luciosilouette.jpg class="imagen2"></span>
     </header>
 
     <div >
@@ -57,7 +57,27 @@
             <img src="paraiso.webp" alt="Lúcio Correia dos Santos" class="imagen3">
         </span>
     </div>
+    <div class="cookie-overlay" id="cookieOverlay"></div>
 
-    
+    <div class="cookie-popup" id="cookiePopup">
+        <h2 class="cookie-title">Cookies?</h2>
+        <p class="cookie-text">
+            We use cookies to make sure you have the best experience on our site.
+        </p>
+        <button class="btn-cookies" id="acceptBtn">Accept</button>
+    </div>
+    <script>
+    // 1. Find the button and the popup elements
+    const acceptBtn = document.getElementById('acceptBtn');
+    const cookieOverlay = document.getElementById('cookieOverlay');
+    const cookiePopup = document.getElementById('cookiePopup');
+
+    // 2. Tell the button to listen for a "click"
+    acceptBtn.addEventListener('click', function() {
+        // 3. Hide the overlay and the popup
+        cookieOverlay.style.display = 'none';
+        cookiePopup.style.display = 'none';
+    });
+</script>
 </body>
 </html>
