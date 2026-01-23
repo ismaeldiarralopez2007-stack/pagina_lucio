@@ -215,8 +215,23 @@ body {
     box-shadow: 2px 2px 0px #000000;
 }
 
-/* Responsive adjustments for phones */
-@media all and (max-width: 480px) {
+footer{
+    align-items: center;
+    display: block;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #484A4C;
+    margin-bottom: 0;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    width: 100%;
+    text-align: left;
+    min-width: auto;
+}
+
+@media all and (max-width: 300px) {
     
     /* 1. Stack everything vertically */
     #definition, 
@@ -224,27 +239,27 @@ body {
     .contenedor-habilidades, 
     #historia, 
     .imagen3 {
-        float: none !important;      /* Remove the side-by-side positioning */
-        width: 90% !important;       /* Make boxes fill the screen width */
-        margin: 10px auto !important; /* Center the boxes and add spacing between them */
+        float: none !important;      
+        width: 90% !important;       
+        margin: 10px auto !important;
         display: block;
     }
 
-    /* 2. Adjust the Header */
+  
     .top-name-box {
         font-size: 18px;
         text-align: center;
         padding: 10px;
     }
 
-    /* 3. Adjust the Logo in the header */
+  
     .imagen2 {
         float: none;
         display: block;
-        margin: 10px auto 0 auto; /* Move logo under the text and center it */
+        margin: 10px auto 0 auto; 
     }
 
-    /* 4. Fix font sizes for readability */
+   
     .titulo {
         font-size: 24px;
         padding: 10px;
@@ -254,7 +269,7 @@ body {
         font-size: 22px;
     }
 
-    /* 5. Clean up image containers */
+    
     .contenedor-imagen, 
     .contenedor-img2 {
         width: 100% !important;
