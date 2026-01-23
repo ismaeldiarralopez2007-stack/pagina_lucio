@@ -122,20 +122,17 @@ body {
 
 .nav-container {
     display: inline-block; 
-
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-
-
-
-.btn-link {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: #F2971D;
     color: rgb(0, 0, 0);
     border: 2px solid #000000;
     padding: 10px 20px;
+}
+
+.btn-link {
+    
     border-radius: 4px;
     font-family: 'KanitCustom', sans-serif;
     font-weight: bold;
