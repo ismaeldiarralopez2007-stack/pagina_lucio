@@ -125,7 +125,7 @@ body {
     border: #000000 solid 1px;
     width: 50%;
     padding: 15px;
-    box-shadow: 2px 2px 0px #000000;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.4);
     line-height: 1.5;
     border-radius: 8px;
     margin-left: 16px;
@@ -171,32 +171,33 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #ffffff; /* White background for the box */
+    background-color: #5C535D; /* White background for the box */
     padding: 30px;
     width: 80%;
-    max-width: 400px;
+    max-width: 600px;
     border-radius: 15px;
     text-align: center;
     z-index: 9001;
-    box-shadow: 10px 10px 0px #000000; /* Matching your 'neo-brutalism' style */
+    box-shadow: 3px 3px 0px #000000; /* Matching your 'neo-brutalism' style */
     border: 2px solid #000000;
 }
 
 .cookie-title {
     margin-top: 0;
-    color: #000000;
+    color: #ffffff;
     font-size: 32px;
 }
 
 .cookie-text {
-    color: #333333;
+    color: #ffffff;
     font-size: 18px;
     margin-bottom: 20px;
+    font-family: 'KanitCustom', sans-serif;
 }
 
 .btn-cookies {
-    background-color: var(--RojoNintendo);
-    color: white;
+    background-color: #F2971D;
+    color: rgb(0, 0, 0);
     border: 2px solid #000000;
     padding: 10px 40px;
     border-radius: 8px;
@@ -204,7 +205,7 @@ body {
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
-    box-shadow: 4px 4px 0px #000000;
+    box-shadow: 3px 3px 0px #000000;
     transition: transform 0.1s;
 }
 
